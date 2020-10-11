@@ -25,6 +25,7 @@
 #primeiro-cont{
     background-color: black;
     border-bottom: solid 4px #FFB612;
+    padding-left: 8%;
 }
 
 .titulo_centro{
@@ -64,7 +65,7 @@ img:hover{
     -webkit-transform: scale(1.2); 
 }
 
-.col-sm-5{
+.col-sm-6{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -72,7 +73,7 @@ img:hover{
 
 .card{
     margin: auto;
-    margin-top: 19.5px;
+    margin-top: 20px;
     margin-bottom: 20px;
     
 }
