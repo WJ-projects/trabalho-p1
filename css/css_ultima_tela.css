@@ -18,6 +18,14 @@
     border-radius: 15px;
 }
 
+.titulo2_centro{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
 .container-fluid{
     background-color: white;
 }
@@ -26,25 +34,6 @@
     background-color: black;
     border-bottom: solid 4px #FFB612;
     padding-left: 10%;
-}
-
-.titulo_centro{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: black;
-    background-color: #FFB612;
-}
-
-h2{
-    margin-bottom: 0px !important;
-}
-.titulo2_centro{
-    text-align: center;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    color: black;
-    
 }
 
 .td-txt-perfil{
@@ -71,42 +60,14 @@ img:hover{
     margin-bottom: 20px;
 }
 
-.card{
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.card-body{
-    background-color:  #FFB612;
-    border: solid 2px  black;
-    border-radius: 5px;
-}
-
-.card-body:hover{
-    -webkit-transform: scale(1.2); 
-    background-color: brown;
-    color: white;
-}
-
 .div-btn{
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin-top: 150px;
+    margin-bottom: 27px;
     text-align: center;
 }
 
 .tamanho{
     width: 150px;
-}
-
-.rodape{
-    text-align: center;
-    background-color:  #FFB612;
-    border-top: solid 2px black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 .nav-link{
@@ -121,4 +82,18 @@ img:hover{
 footer{
     margin: 0;
     padding: 0;
+}
+
+.rodape{
+    text-align: center;
+    background-color:  #FFB612;
+    border-top: solid 2px black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.tabelaEstudo{
+    text-align: center;
 }

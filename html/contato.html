@@ -4,18 +4,17 @@
         <!-- Meta tags Obrigatórias -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" type="text/css" href="css/css_index.css">
+        <link rel="stylesheet" type="text/css" href="../css/css_contato.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <title>P1 - Leonardo</title>
+        <title>CONTATO</title>
     </head>
-    <body class="corpo">
-        <h2 class="titulo_centro">TRABALHO PARA P1</h2>
+    <body>
 
         <div class="container-fluid" id="primeiro-cont">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-xl-6">
                     <table>
                         <tr>
                             <td class="td-perfil">
@@ -30,7 +29,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-xl-6">
                     <table>
                         <tr>
                             <td class="td-perfil">
@@ -48,40 +47,48 @@
             </div>
         </div>
 
-        <h2 class="titulo2_centro">Tema de Interesse na área de TI</h2>
+        <h2 class="titulo2_centro">FORMULARIO DE CONTATO</h2>
 
-        <div class="container-fluid">
+        <div class="container-fluid" >
             <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title" align="center">Título especial</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>                  
-                    </div>
-                </div>
+                <div class="col-xl-12">
+                    <form action="" id="for">
 
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title" align="center">Título especial</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>                  
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title" align="center">Título especial</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                    </div>
+                        <div class="col-xl-12">
+                            <label for="nome_id">Nome</label>
+                            <input type="text" id="nome_id" name="nome" placeholder="EX: João Marcos">
+                        </div>
+            
+                        <div class="col-xl-12">
+                            <label for="email_id">Email</label>
+                            <input type="email" id="email_id" name="email" placeholder="EX: vinicios@exemplo.com">
+                        </div>
+            
+                        <div class="col-xl-12">
+                            <label for="motivo_id">Motivo do contato</label>
+                            <select name="motivo" id="motivo_id">
+                                <option value="servico">Serviços</option> 
+                                <option value="contratacao">Contratação</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-xl-12">
+                            <input type="submit" value="Enviar e-mail" id="sub_id">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-
+        
+        
         <div class="container-fluid div-btn">
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="html/contato.html"><button type="button" id="cont" class="btn btn-outline-info btn-sm tamanho">Contato</button></a>
+                    <a href="../index.html"><button type="button" id="cont" class="btn btn-outline-info btn-sm tamanho">Página Principal</button></a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="html/ultimaTela.html"><button type="button" id="grade" class="btn btn-outline-info btn-sm tamanho">Grade de Estudo</button></a>
+                    <a href="ultimaTela.html"><button type="button" id="grade" class="btn btn-outline-info btn-sm tamanho">Grade de Estudo</button></a>
                 </div>
             </div>
         </div>
