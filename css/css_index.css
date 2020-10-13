@@ -53,6 +53,15 @@ h2{
     color: white;
 }
 
+.perf{
+    padding-right: 80px;
+}
+
+.perf1{
+    padding-right: 80px;
+    margin-top: 25px;
+}
+
 .td-perfil{
     padding-top: 12px;
     text-align: center;
@@ -84,6 +93,7 @@ img:hover{
     background-color:  #FFB612;
     border: solid 2px  black;
     border-radius: 5px;
+    text-align: justify;
 }
 
 .card-body:hover{
@@ -103,12 +113,10 @@ img:hover{
 }
 
 .rodape{
+    margin-top: 60px;
     text-align: center;
     background-color:  #FFB612;
     border-top: solid 2px black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 .nav-link{
